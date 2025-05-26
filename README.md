@@ -51,15 +51,15 @@ Project Constellation is a system designed to automatically generate, update, an
     Open `constellation.config.json` and update the `llm` section with your API key and preferred model settings.
     ```json
     {
-      // ... other configurations ...
-      "llm": {
-        "apiKey": "YOUR_ACTUAL_API_KEY_HERE",
-        "model": "your-preferred-model", // e.g., "gpt-4", "claude-3-opus-20240229"
-        "settings": {
-          "temperature": 0.7,
-          "maxTokens": 2048
+        // ... other configurations ...
+        "llm": {
+            "apiKey": "API_KEY_HERE",
+            "model": "gemini-1.5-flash-latest",
+            "settings": {
+            "temperature": 0.7,
+            "maxTokens": 2048
+            }
         }
-      }
     }
     ```
 
