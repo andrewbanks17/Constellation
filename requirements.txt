@@ -1,0 +1,6 @@
+# Add project dependencies here, one per line.
+# Example:
+# openai
+# requests
+# google-genai
+google-generativeai

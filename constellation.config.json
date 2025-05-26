@@ -1,0 +1,42 @@
+{
+  "ignore": [
+    "node_modules",
+    ".git",
+    ".vscode",
+    ".idea",
+    "dist",
+    "build",
+    "*.log",
+    "*.lock",
+    "*.DS_Store",
+    "constellation.config.json",
+    "root"
+  ],
+  "sourceFileExtensions": [
+    ".js",
+    ".ts",
+    ".py",
+    ".java",
+    ".cs",
+    ".go",
+    ".rb",
+    ".php",
+    ".rs",
+    ".c",
+    ".cpp",
+    ".h",
+    ".hpp",
+    ".md",
+    ".json",
+    ".yml",
+    ".yaml"
+  ],
+  "llm": {
+    "apiKey": "API_KEY_HERE",
+    "model": "gemini-1.5-flash-latest",
+    "settings": {
+      "temperature": 0.7,
+      "maxTokens": 2048
+    }
+  }
+}
